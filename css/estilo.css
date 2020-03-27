@@ -1,0 +1,70 @@
+ul li a:hover{
+    background-color:black;
+    color: yellow;
+}
+.m{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+.m li{
+float: left;
+}
+.m li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 35px;
+    text-decoration: black;
+}
+
+h1{
+color: white;
+}
+
+body{
+    background-color: darkslategrey;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkturquoise;
+    
+}
+.contenedor div{
+   background-color: white; 
+   width: 1000px;
+   margin:100px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+   position: relative;
+   -webkit-animation-name:animacion1 ;
+   -webkit-animation-duration: .5s;
+}
+
+@-webkit-keyframes animacion1{
+from{
+top: 30px;
+}
+to{
+top: 60px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
